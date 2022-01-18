@@ -95,7 +95,7 @@ void MainWindow::on_pushButton_clicked() {
   if (ui->plainTextEdit_5->toPlainText() == "") obj["orderSide"] = 65;
   else if (ui->plainTextEdit_5->toPlainText() == "") obj["orderSide"] = 86;
 
-  obj["orderValidity"] = 75;
+  obj["orderValidity"] = 73;
 
 
   QByteArray data = QJsonDocument(obj).toJson();
