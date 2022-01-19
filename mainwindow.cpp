@@ -65,8 +65,6 @@ void MainWindow::on_pushButton_clicked() {
    obj["CautionAgreementSelected"]=false;
    obj["FinancialProviderId"]=1;
    obj["IsSymbolCautionAgreement"]=false;
-   obj["IsSymbolSepahAgreement"]=false;
-   obj["SepahAgreementSelected"]=false;
    obj["isin"]= ui->plainTextEdit_2->toPlainText();
    obj["maxShow"]=0;
    obj["minimumQuantity"]=0;
